@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#5AAFF0;
+    
+}
+
+
+header div {
+    position: relative;
+
+}
+
+header .icon {
+    position: relative;
+    left: 1870px;
+    top: 10px;
+     
+ }
+
+
+
+
+
+/*Smoth scroll*/
+html,
+body {
+  height: 100%;
+  
+  transition: 0.3s;
+  scroll-behavior: smooth;
+}
+
+
+input[type="checkbox"]{
+   display: none;
+
+}
+
+.bi{
+    font-size: 1.3rem;
+    cursor: pointer;
+    
+}
+.bi-sun {
+    color: #EBE51E;
+}
+
+.bi-moon{
+    display: none;
+    justify-content: right;
+}
+
+
+
+/*Dark Theme*/
+.dark{
+    background-color: #181818;
+    color: #fff;
+    background: #181818;
+}
+
+.dark header{
+    background: #040D16;
+    
+}
+
+.dark .bi-sun{
+    display: none;
+    
+}
+.dark .bi-moon{
+    display: block;
+}
+.dark .navbar-container{
+    background: #040D16;
+    color: #fff;
+   
+}
+.dark .navbar-items a{
+    background-color: #0C1719;
+    color: #fff;
+}
+.dark .navbar-items a:hover{
+    background-color: #0C1719;
+    color: #fff;
+}
+
+.dark .main-banner{
+    
+    background:linear-gradient( #040D16,#0C1719) ;
+    
+    color: #fff;
+    
+}
+
+.dark .main-banner h1,
+.dark .main-banner p{
+    
+    color: #fff;
+    text-shadow: #000 3px 2px 3px;
+    
+}
+.dark .div-metodos .metodos-estudo{
+    background:#0C1719;
+}
+
+ .metodos-estudo{
+   
+    color: #fff;
+    text-align: center;
+    display: flex;
+    padding: 150px 40px 0 40px ;
+}
+.dark .metodos-txt,
+.dark .metodos-txt a,
+.dark .metodos-txt p{
+    flex:1;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.dark .main-form {
+    background: linear-gradient(#0C1719, #040D16 );
+}
+
+
+.dark .main-form,
+.dark .main-form h3,
+.dark .main-form p{
+    
+    color: #fff;
+    text-shadow: #000000 3px 2px 3px;
+}
+
+
+
+
+.dark .main-contacts,
+.dark .main-contacts ul,
+.dark .main-contacts h4,
+.dark .main-contacts li,
+.dark .main-contacts a{
+    
+    color: #fff;
+    text-shadow: #000 3px 2px 3px;
+}
+.dark .main-contacts {
+    background: #040D16 ;
+}
+
+
+
+
+
+
+/* NavBar*/
+
+
+
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    padding: 0 2rem;
+    color: black;
+    background-color:#5AAFF0;
+    
+    
+}
+
+nav {
+    position: relative;
+}
+
+
+
+
+
+.navbar-items {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+
+}
+
+.navbar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-items a {
+    color: #000000;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 7px;
+    border-radius: 3px;
+    
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-items a:hover {
+    color: #000000;
+    padding: 14px 16px;
+    
+
+}
+
+
+
+/* Main-banner*/
+
+
+
+.main-banner {
+    background-position: center;
+    padding: 6rem 0;
+    color: white;
+    text-shadow: #000000 3px 2px 3px;
+    background-color: #33A4ED;
+    background: linear-gradient(#5AAFF0, #33A4ED);
+    text-align: center;
+}
+
+.main-banner h1 {
+    font-size: 65px;
+    padding-top: 50px;
+
+}
+
+.main-banner p {
+    padding-top: 30px;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+
+/*Dicas e Métodos de estudos */
+
+.metodos-estudo {
+    
+    display: flex;
+    padding: 150px 40px 0 40px ;
+    background-color: #33A4ED;
+    text-align: center;
+    color: white;
+    text-shadow: #000000 3px 2px 3px;
+    
+    
+}
+
+.metodos-txt{
+    flex:1;
+    font-size: 35px;
+    
+    
+}
+
+.metodos-txt a {
+    color: white;
+}
+
+.metodos-txt h2 {
+    
+    padding-top:40px ;
+    padding-bottom:70px;
+    font-size: 45px;
+    flex: 1;
+    text-align: left;
+    
+    
+}
+
+
+
+
+ .metodos-img {
+    flex:1;
+    text-align: center;
+}
+
+.metodos-img img {
+    
+    width: 400px;
+    height: 400px;
+}
+
+/*FeedBack*/
+.main-form {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+    padding: 2rem 0;
+    font-size: 22px;
+    background: linear-gradient( #33A4ED, #5AAFF0);
+}
+
+.main-form h3 {
+    color: white;
+    text-shadow: #000000 3px 2px 3px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.main-form p {
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.main-form .feedback{
+    
+     
+    text-align: center;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 8em;
+    resize: vertical;
+    
+}
+
+
+/*Contatos*/
+
+
+.main-contacts {
+    background-color:#5AAFF0;
+    padding: 2rem 0;
+    font-size: 15px;
+}
+.main-contacts ul {
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.main-contacts h4 {
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: #000000 3px 2px 3px;
+}
+.main-contacts p {
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: #000000 3px 2px 3px;
+    text-align: center;
+}
+.main-contacts a {
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-decoration: none;
+    text-shadow: #000000 3px 2px 3px;
+    margin-right: 50px;
+    
+}
+span{
+    margin-right: 40px;
+}
+
+

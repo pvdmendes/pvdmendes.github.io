@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+header div {
+    position: relative;
+
+}
+
+header .icon {
+    position: relative;
+    left: 1870px;
+    top: 10px;
+     
+ }
+
+
+
+
+
+/*Smoth scroll*/
+html,
+body {
+  height: 100%;
+  background-color: #ffffff;
+  transition: 0.3s;
+  scroll-behavior: smooth;
+}
+
+input[type="checkbox"]{
+   display: none;
+
+}
+
+.bi{
+    font-size: 1.3rem;
+    cursor: pointer;
+    
+}
+.bi-sun {
+    color: #EBE51E;
+}
+
+.bi-moon{
+    display: none;
+    justify-content: right;
+}
+
+
+/*Dark Theme*/
+.dark{
+    background-color: #181818;
+    color: #fff;
+    background: #181818;
+}
+
+.dark header{
+    background: #040D16;
+    
+}
+
+.dark .bi-sun{
+    display: none;
+    
+}
+.dark .bi-moon{
+    display: block;
+}
+.dark .navbar-container{
+    background: #040D16;
+    color: #fff;
+   
+}
+.dark .navbar-items a{
+    background-color: #0C1719;
+    color: #fff;
+}
+.dark .navbar-items a:hover{
+    background-color: #0C1719;
+    color: #fff;
+}
+
+.dark .main-banner{
+    
+    background: #040D16;
+    
+    color: #fff;
+    
+}
+
+.dark .main-banner h1,
+.dark .main-banner p{
+    
+    color: #fff;
+    text-shadow: #000 3px 2px 3px;
+    
+}
+.dark .sitesquestoes {
+    background: linear-gradient(#040D16 , #0C1719);
+}
+
+.dark .sitesquestoes,
+.dark .sitesquestoes h2,
+.dark .sitesquestoes p{
+    color: #fff;
+    text-shadow: #000000 3px 2px 3px;
+}
+
+
+.dark .sitesquestoes h2 {
+    font-size: 45px;
+   
+
+}
+
+.dark .sitesquestoes p {
+    
+    
+    padding: 0 300px 200px 300px;
+    font-size: 30px;
+}
+.dark .sitesquestoes a {
+    color:rgb(255, 255, 255);
+}
+
+
+.dark .main-form {
+    background: linear-gradient(#0C1719, #040D16 );
+}
+
+
+.dark .main-form,
+.dark .main-form h3,
+.dark .main-form p{
+    
+    color: #fff;
+    text-shadow: #000000 3px 2px 3px;
+}
+
+
+
+
+.dark .main-contacts,
+.dark .main-contacts ul,
+.dark .main-contacts h4,
+.dark .main-contacts li,
+.dark .main-contacts a{
+    
+    color: #fff;
+    text-shadow: #000 3px 2px 3px;
+}
+.dark .main-contacts {
+    background: #040D16 ;
+}
+
+/*Header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#5AAFF0;
+    
+}
+
+/* NavBar*/
+
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    padding: 0 2rem;
+    color: black;
+    background-color:#5AAFF0;
+    
+    
+}
+
+nav {
+    position: relative;
+}
+
+
+
+
+
+.navbar-items {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+
+}
+
+.navbar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-items a {
+    color: #000000;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 7px;
+    border-radius: 3px;
+    
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-items a:hover {
+    color: #000000;
+    padding: 14px 16px;
+}
+
+
+
+/* Main-banner*/
+
+.main-banner {
+    background-position: center;
+    padding: 6rem 0;
+    color: white;
+    text-shadow: #000000 3px 2px 3px;
+    
+    background: linear-gradient(#5AAFF0, #33A4ED);
+    text-align: center;
+}
+
+
+.main-banner h1 {
+    font-size: 65px;
+    padding-top: 50px;
+
+}
+
+.main-banner p {
+    padding-top: 30px;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+
+
+/* Sites questões  */
+
+.sitesquestoes {
+    background-color: #33A4ED;
+    padding-top: 300px;
+    text-align:center;
+    color: white;
+    text-shadow: #000000 3px 2px 3px;
+    
+}
+
+.sitesquestoes img{
+    
+    width: 800px;
+    height: 600px;
+}
+
+.sitesquestoes h2 {
+    font-size: 45px;
+   
+
+}
+
+.sitesquestoes p {
+    
+    
+    padding: 0 300px 200px 300px;
+    font-size: 30px;
+    
+    
+    
+}
+
+.sitesquestoes a {
+    color:white;
+}
+
+
+.brlogo {
+    width: 700px;
+    height: 700px;
+    
+}
+/*FeedBack*/
+.main-form {
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient( #33A4ED , #5AAFF0);
+    color: white;
+    padding: 2rem 0;
+    font-size: 22px;
+}
+
+.main-form h3 {
+   
+    color: white;
+    text-shadow: #000000 3px 2px 3px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.main-form p {
+    
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.main-form .feedback{
+    
+     
+    text-align: center;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 8em;
+    resize: vertical;
+    
+}
+/*Contatos*/
+.main-contacts {
+    background-color:#5AAFF0;
+    padding: 2rem 0;
+    font-size: 15px;
+}
+.main-contacts ul {
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.main-contacts h4 {
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: #000000 3px 2px 3px;
+}
+.main-contacts p {
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: #000000 3px 2px 3px;
+    text-align: center;
+}
+.main-contacts a {
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-decoration: none;
+    text-shadow: #000000 3px 2px 3px;
+    margin-right: 50px;
+    
+}
+span{
+    margin-right: 40px;
+}
+
